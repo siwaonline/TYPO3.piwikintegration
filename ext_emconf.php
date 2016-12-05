@@ -35,4 +35,21 @@ $EM_CONF[$_EXTKEY] = [
             'piwik' => '2.0.0-2.999.0',
         ],
     ],
+    'autoload' => 
+        array(
+            'classmap' => array(
+                'Classes/Lib/Config.php',
+                'Classes/Lib/Div.php',
+                'Classes/Lib/Extmgm.php',
+                'Classes/Hooks/BeUserProcessing.php',
+                'Classes/Lib/Install.php',
+                'mod1/index.php',
+                'pi1/class.tx_piwikintegration_flexform.php',
+                'pi1/class.tx_piwikintegration_pi1.php',
+                'pi1/class.tx_piwikintegration_pi1_templavoila_preview.php',
+                'pi1/class.tx_piwikintegration_pi1_wizicon.php',
+                'Classes/SchedulerTasks/Archive.php',
+                'Classes/Tracking/Tracking.php',
+        )
+    ),
 ];
