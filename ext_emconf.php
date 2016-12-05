@@ -38,6 +38,8 @@ $EM_CONF[$_EXTKEY] = [
     'autoload' => 
         array(
             'classmap' => array(
+                'Classes/Controller',
+                'Classes/Tracking',
                 'Classes/Lib/Config.php',
                 'Classes/Lib/Div.php',
                 'Classes/Lib/Extmgm.php',
