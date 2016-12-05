@@ -43,7 +43,6 @@ $EM_CONF[$_EXTKEY] = [
                 'Classes/Lib/Extmgm.php',
                 'Classes/Hooks/BeUserProcessing.php',
                 'Classes/Lib/Install.php',
-                'mod1/index.php',
                 'pi1/class.tx_piwikintegration_flexform.php',
                 'pi1/class.tx_piwikintegration_pi1.php',
                 'pi1/class.tx_piwikintegration_pi1_templavoila_preview.php',
